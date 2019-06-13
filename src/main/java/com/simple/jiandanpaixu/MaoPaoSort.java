@@ -1,4 +1,4 @@
-package com.jiandanpaixu;
+package com.simple.jiandanpaixu;
 
 /**
  * * 冒泡排序
@@ -25,6 +25,7 @@ public class MaoPaoSort {
 			for(int k=0;k<doubleArray.length;k++) {
 				System.out.println(k+":"+doubleArray[k]);
 			}
+			System.out.println(doubleArray);
 		}
 	}
 	
