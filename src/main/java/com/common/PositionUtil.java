@@ -156,5 +156,6 @@ public class PositionUtil {
 		System.out.println("bd  :" + bd);
 		Gps gcj2 = bd09_To_Gcj02(bd.getWgLat(), bd.getWgLon());
 		System.out.println("gcj :" + gcj2);
+		
 	}
 }

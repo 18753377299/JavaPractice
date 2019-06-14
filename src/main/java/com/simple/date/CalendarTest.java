@@ -1,4 +1,4 @@
-package Date;
+package com.simple.date;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -14,10 +14,12 @@ import java.util.List;
  * @since  
  * @return  */
 public class CalendarTest {
+	
 	//节假日列表
 	private static List<Calendar> holidayList = new ArrayList<Calendar>();  
 	//周末为工作日
 	private static List<Calendar> weekendList = new ArrayList<Calendar>();
+	
 	/** 
 	 * @param args
 	 * return void    返回类型 
@@ -25,7 +27,6 @@ public class CalendarTest {
 	 */
 	public static void main(String[] args) {
 		try {
-			
 			DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 			Calendar ca = Calendar.getInstance();
 			Date d = df.parse("2016-09-15");
@@ -80,7 +81,7 @@ public class CalendarTest {
 					ca.get(Calendar.YEAR) == calendar.get(Calendar.YEAR)){
 				return true;
 			}
-		}
+		 }
 		  
 		 return false;
 	 }

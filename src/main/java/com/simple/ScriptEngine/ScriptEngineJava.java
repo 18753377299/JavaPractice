@@ -1,4 +1,4 @@
-package ScriptEngine;
+package com.simple.ScriptEngine;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

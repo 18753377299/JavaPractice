@@ -1,4 +1,4 @@
-package map;
+package com.simple.map;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -12,11 +12,13 @@ import java.util.TreeMap;
 public class MapSort {
     public static Map<Integer, Double> Probs = new TreeMap<Integer, Double>();
     public static void main(String[] args) {
+    	
         Probs.put(1, 0.5);
         Probs.put(2, 1.5);
         Probs.put(3, 0.2);
         Probs.put(4, 10.2);
         Probs = sortByValueDescending(Probs);
+        
         System.out.println("基于value值的降序，排序输出结果为：");
         for (Map.Entry<Integer, Double> entry : Probs.entrySet()) {
             System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());

@@ -9,7 +9,11 @@ import java.util.Locale;
  * @date 创建时间：2018年3月9日 下午3:42:35
  * @version 1.0 
  * @parameter 
- * @since  
+ * @since
+	 输出日期：Fri Jun 14 16:06:43 CST 2019
+	DATE：2019年6月14日
+	DATETIME：2019年6月14日 下午04时06分44秒 CST
+	2019-6-14
  * @return  */
 public class DateTest {
 

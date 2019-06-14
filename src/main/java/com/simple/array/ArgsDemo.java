@@ -5,7 +5,7 @@ package com.simple.array;
  * @date 创建时间：2018年11月9日 下午1:48:20
  * @version 1.0 
  * @parameter 
- * @since  
+ * @since   System.arraycopy的函数原型是：src表示源数组，srcPos表示源数组要复制的起始位置，desc表示目标数组，length表示要复制的长度
  * @return  */
 public class ArgsDemo {
 

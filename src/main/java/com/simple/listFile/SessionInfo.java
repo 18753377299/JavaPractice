@@ -1,4 +1,4 @@
-package List;
+package com.simple.listFile;
 
 /******************************************************************************* 
  * 
@@ -28,14 +28,12 @@ import java.io.Serializable;
 @SuppressWarnings("serial")  
 public class SessionInfo implements Serializable{  
     private int id;  
-    private String url;  
+    private String url; 
+    
     public int getId() {  
-  
         return id;  
     }  
     public void setId(int id) {  
-  
-        this.id = id;  
     }  
   
     public String getUrl() {  

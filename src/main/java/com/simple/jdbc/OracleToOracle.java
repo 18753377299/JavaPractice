@@ -1,4 +1,4 @@
-package jdbc;
+package com.simple.jdbc;
 
 import java.math.BigDecimal;
 import java.sql.Connection;
