@@ -1,4 +1,4 @@
-package test;
+package com.simple.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -49,6 +49,7 @@ public class HttpClient {
 			e.printStackTrace();
 		}
 	}
+	
 //	 private static void sendGET() throws IOException {
 //	        CloseableHttpClient httpClient = HttpClients.createDefault();
 //	        HttpGet httpGet = new HttpGet(GET_URL);
