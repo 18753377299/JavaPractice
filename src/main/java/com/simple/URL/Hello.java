@@ -1,3 +1,4 @@
+package com.simple.URL;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
@@ -8,7 +9,9 @@ import java.net.URLDecoder;
 import java.util.regex.Pattern;
 
 import org.apache.commons.codec.binary.Base64;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
+
+import com.common.AjaxResult;
 
 
 

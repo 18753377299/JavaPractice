@@ -1,4 +1,4 @@
-package  URL;
+package  com.simple.URL;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
