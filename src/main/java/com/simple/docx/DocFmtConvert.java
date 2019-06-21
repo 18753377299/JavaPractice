@@ -1,4 +1,4 @@
-package docx;
+package com.simple.docx;
 
 import com.jacob.activeX.ActiveXComponent;
 import com.jacob.com.ComThread;
