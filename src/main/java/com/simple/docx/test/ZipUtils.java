@@ -1,4 +1,4 @@
-package docx.test;
+package com.simple.docx.test;
 
 import java.io.File;
 import java.io.FileInputStream;

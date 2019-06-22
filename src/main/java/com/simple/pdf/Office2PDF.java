@@ -1,4 +1,4 @@
-package pdf;
+package com.simple.pdf;
 
 import java.io.BufferedInputStream;
 import java.io.File;

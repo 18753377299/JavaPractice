@@ -1,4 +1,5 @@
-package pdf;
+package com.simple.pdf;
+
 import java.io.File;
 import java.util.logging.Logger;
 

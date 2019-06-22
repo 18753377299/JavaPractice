@@ -1,4 +1,4 @@
-package docx;
+package com.simple.docx;
 
 import java.io.BufferedWriter;
 import java.io.File;
