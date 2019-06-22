@@ -11,7 +11,6 @@ public class Gps {
 	
 	public Gps(double wgLat, double wgLon) {
 		this();   // 调用无参构造函数,使用this调用构造方法必须放在构造方法的第一行。
-		
 //		this.wgLat = wgLat;
 //		this.wgLon = wgLon;
 		setWgLon(wgLon);
