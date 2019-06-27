@@ -8,5 +8,13 @@ package com.simple.neibulei;
  * @时间 下午4:22:46
  */
 public class OuterVisitInner {
-
+	public static void main(String []args) {
+		
+	}
+}
+class OuterInner{
+	private static String hello="world";
+	class InnerOuter{
+		pu
+	}
 }
