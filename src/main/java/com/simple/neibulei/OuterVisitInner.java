@@ -15,6 +15,6 @@ public class OuterVisitInner {
 class OuterInner{
 	private static String hello="world";
 	class InnerOuter{
-		pu
+		
 	}
 }
