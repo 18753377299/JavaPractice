@@ -35,6 +35,7 @@ import org.apache.http.protocol.HttpContext;
 import org.springframework.util.StreamUtils;
 
 import com.alibaba.fastjson.JSON;
+import com.vo.GridValue;
 	/**
  * @author  作者 E-mail: 
  * @date 创建时间：2018年11月22日 下午6:11:35
@@ -106,6 +107,7 @@ class MoreThread extends Thread {
 //                    "riskcontrol","riskcontrol");
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@10.10.68.248:1521:orcl",
                     userName,passWord);
+			
 			String sql= "select SMID,SMX,SMY from(select a.*,ROWNUM rn from("
 					+ " select* from  "+ riskMap_Address +" where VALIDSTATUS ='1' and "
 					+ "(RAINSCALE is null or THUNDERSTORMSCALE is null or SNOWSTORMSCALE is null or HAILSCALE is null or FLOODSCALE is null or TYPHOONSCALE is null or LANDSLIDESCALE is null or EQPGA  is null) order by SMID "

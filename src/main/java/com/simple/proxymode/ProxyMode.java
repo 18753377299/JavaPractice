@@ -15,6 +15,8 @@ public class ProxyMode {
 		Gps gps = new Gps(36,118);
 		System.out.println(gps);
 		
+		int aa =  Math.floorDiv(4, 2);
+		
 		Integer a = 1;
 		int b= (int)a;
 		Integer c = (Integer)b;

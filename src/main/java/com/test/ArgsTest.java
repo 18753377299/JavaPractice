@@ -1,4 +1,8 @@
 package com.test;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 /**
  * @功能：
  * @author liqiankun
@@ -15,9 +19,14 @@ public class ArgsTest {
 				System.out.println(str);
 			}
 			System.out.println("============="+args[2]);
-		}else {
-			System.out.println("=========error==========");
-			System.exit(1);
 		}
+//		else {
+//			System.out.println("=========error==========");
+//			System.exit(1);
+//		}
+		BigDecimal  bigDecimal = new BigDecimal("123456.895346");
+		
+		System.out.println(bigDecimal.divide(new BigDecimal("10000"), 6,RoundingMode.HALF_UP));
+		
 	}
 }

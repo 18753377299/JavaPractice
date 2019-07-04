@@ -1,5 +1,12 @@
-package thread_10;
-
+package com.simple.thread_10;
+/**
+ * @功能：单线程
+ * @author liqiankun
+ * @param            
+ * @throws
+ * @日期 2019年6月22日
+ * @时间 下午4:35:03
+ */
 public class OnlyThread extends Thread{
 	public static void main(String [] args){
 		OnlyThread td =new OnlyThread();		

@@ -1,4 +1,4 @@
-package thread_10;
+package com.simple.thread_10;
 
 public class MoreThreadKind  extends Thread{
 	

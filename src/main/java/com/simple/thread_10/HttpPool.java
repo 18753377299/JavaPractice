@@ -1,8 +1,11 @@
-package thread_10;
+package com.simple.thread_10;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.conn.ConnectionKeepAliveStrategy;
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.protocol.HttpContext;
 	/**
  * @author  作者 E-mail: 
@@ -11,13 +14,11 @@ import org.apache.http.protocol.HttpContext;
  * @parameter 
  * @since  
  * @return  */
-public class HttpPool
-{
+public class HttpPool {
 
     static CloseableHttpClient httpClient = null;
 
-    public static synchronized CloseableHttpClient getHttpClient()
-    {
+    public static synchronized CloseableHttpClient getHttpClient(){
 
         if (httpClient == null)
         {
