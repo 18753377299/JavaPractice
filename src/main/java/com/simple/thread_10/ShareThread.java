@@ -24,9 +24,18 @@ class ShareMyThread implements Runnable{
 	public void run() {
 		
 		for(int i=0;i<10;i++) {
-			if(target>0) {
-				System.out.println("target:"+target--);
+			/*同步代码块，解决代码同步的问题*/
+			synchronized (this) {
+				if(target>0) {
+					try {
+						Thread.sleep(300);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					System.out.println("target:"+target--);
+				}
 			}
+			
 		}
 		
 	}

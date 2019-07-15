@@ -12,6 +12,9 @@ public class OnlyRunner implements Runnable{
 		OnlyRunner onlyRunner  = new OnlyRunner();
 		Thread thread = new Thread(onlyRunner);
 		thread.start();
+		
+		thread.setPriority(Thread.NORM_PRIORITY); // 优先级
+		Thread.currentThread().yield(); // 线程的礼让
 	}
 
 	@Override
